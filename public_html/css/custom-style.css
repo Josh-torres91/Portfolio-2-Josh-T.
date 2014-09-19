@@ -10,6 +10,12 @@ div{
 .row{
     border-color: #2aabd2;
 }
-body {
-    background-color:  #245269;
+
+.list-group-item {
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+body{
+    background-color:  #298582;
 }
