@@ -9,12 +9,41 @@ and open the template in the editor.
         <title>My Projects</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
-    <body>
-        <div><p>This is my projects page where my different projects during my<br>
-                time at the App Academy will be displayed. The image below is<br>
-                an earlier version of my website.</p></div>
-        <img  alt src="images/Portfolio1.png">
-        <img  alt src="images/Portfolio2.png">
+    <body id="projects">
+        <header>
+            <h1 style="color:#FFFFFF">Projects</h1>
+            <p style="color:#FFFFFF" >This is my projects page where my different projects during my<br>
+               time at the App Academy will be displayed. The image below is<br>
+               an earlier version of my website.</p>
+            <div style="color:#FFFFFF" class="container">
+            <p>container</p>
+            <div class="row">
+                <p>row</p>
+                <div class="col-xs-10">
+                    <p>col-xs-10</p>
+                    <div class="row">
+                        <p>row</p>
+                        <div class="col-xs-3">
+                           <img alt="Responsive-Images" class="image-responsive image-rounded" src="http://ggstatic.com/productimages/bioshock-infinite-mac-burial-at-sea_16_pac_m_131112150539.jpg">
+                        </div>
+                        <div class="col-xs-9"></div>
+                    </div>
+                    <div class="row">
+                        <img  alt src="images/Portfolio1.png">
+                        <img  alt src="images/Portfolio2.png">
+                        <p>row</p>
+                        <div class="col-xs-3"></div>
+                        <div class="col-xs-9"></div>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <nav class="list-group">
+                        <a class="list-group-item" href="index.html">About Me</a>
+                        <a class="list-group-item" href="projects.html">Projects</a>
+                        <a class="list-group-item" href="technology.html">Technology</a>
     </body>
 </html>

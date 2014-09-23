@@ -1,21 +1,43 @@
 div{
     border-style: groove;
-    border-width: 6px;
+    border-width: 8px;
     padding: 30px;
-    border-color: blue;
+    border-color: #2b669a;
 }
 .container{
-    border-color: #285e8e;
+    border-color: #2b669a;
+    padding: 20px;
 }
 .row{
-    border-color: #2aabd2;
+    border-color: #2b669a;
+    padding: 20px;
 }
 
-.list-group-item {
+.list-group-item{
     border: 0px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-body{
-    background-color:  #298582;
+#index{
+    background-image: url(http://img1.wikia.nocookie.net/__cb20130602041007/bioshock/images/6/62/BioShock_Infinite_Screen_14.jpg);
+    background-size: cover;
+}
+#projects{
+    background-image: url(https://lh4.googleusercontent.com/-iJukOYUJACg/UbmQQVh10yI/AAAAAAAAADY/6IGDbHcx9XM/s0-d/bioshock_rapture_desktop_1366x768_wallpaper-1014113.jpg);
+    background-size: cover;
+}
+#technology{
+    background-image: url(http://images.gameskinny.com/gameskinny/81c293e8de77a2cdab4b50e996a7ca4e.jpg);
+    background-size: cover;
+}
+img{
+    width: 180px;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 8px;
+}
+.jumbotron{
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
 }
